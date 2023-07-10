@@ -43,3 +43,14 @@ main section:nth-of-type(2n + 1) {
 }
 
 /* |Section Avatar */
+
+/* *Footer */
+/* |Footer Top| */
+#footer_top {
+  background-color: var(--bg_cyan_blue);
+}
+
+/* |Footer Bottom| */
+#footer_bottom {
+  background-color: var(--bg_dark_blue);
+}
