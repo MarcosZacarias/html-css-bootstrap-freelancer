@@ -9,6 +9,11 @@
   background-color: blueviolet;
 }
 
+._box > ._box {
+  background-color: yellow;
+  border: 1px dashed black;
+}
+
 ._bordered {
   border: 2px dashed red;
 }
@@ -28,3 +33,11 @@
   height: 100px;
   background-color: var(--bg_dark_blue);
 }
+
+/* *MAIN */
+
+main section:nth-of-type(2n + 1) {
+  background-color: var(--bg_light_green);
+}
+
+/* |Section Avatar */
