@@ -29,6 +29,14 @@
   --bg_cyan_blue: #3a546d;
 }
 
+/* *GENERAL */
+
+main > section,
+footer > * {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 /* *HEADER */
 
 #header {
