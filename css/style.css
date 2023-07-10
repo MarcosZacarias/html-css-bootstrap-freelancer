@@ -1,0 +1,30 @@
+/* ! DEBUG */
+
+._box {
+  width: auto;
+  padding: 1rem;
+  border: 2px dashed black;
+  text-align: center;
+
+  background-color: blueviolet;
+}
+
+._bordered {
+  border: 2px dashed red;
+}
+
+/* *ROOT */
+
+:root {
+  --bg_dark_blue: #2c3e50;
+  --bg_light_green: #1abc9c;
+  --bg_white: #ffffff;
+  --bg_cyan_blue: #3a546d;
+}
+
+/* *HEADER */
+
+#header {
+  height: 100px;
+  background-color: var(--bg_dark_blue);
+}
