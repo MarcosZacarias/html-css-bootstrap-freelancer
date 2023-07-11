@@ -34,6 +34,15 @@
 ._line_stars {
   width: 100px;
   height: 5px;
+  background-color: var(--bg_dark_blue);
+}
+
+._text_dark_blue {
+  color: var(--bg_dark_blue);
+}
+
+._bg_dark_blue {
+  background-color: var(--bg_dark_blue);
 }
 
 /* *HEADER */
