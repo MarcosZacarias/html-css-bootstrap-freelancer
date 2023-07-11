@@ -219,21 +219,69 @@
       </section>
 
       <!-- Section Contact-Me -->
-      <section id="contact-me" class="py-4">
+      <section id="contact_me" class="py-4">
         <div class="container">
-          <div class="_bordered col-10 mx-auto">
-            <div class="text-center">Titolo</div>
-            <div>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
+          <div class="col-10 mx-auto">
+            <!-- Top Contact Me -->
+            <div class="col-12 d-flex flex-column align-items-center text-dark">
+              <div class="fs-1 text-center">
+                <p class="fs-3 fw-bolder py-2 m-0">CONTACT ME</p>
+                <div
+                  class="py-2 d-flex justify-content-center align-items-center gap-2"
+                >
+                  <div class="bg-dark rounded-pill _line_stars"></div>
+                  <i class="fa-solid fa-star"></i>
+                  <div class="bg-dark rounded-pill _line_stars"></div>
+                </div>
+              </div>
             </div>
-            <div class="d-flex">
-              <div class="_box">Button</div>
-            </div>
+
+            <!-- Form Contact-Me -->
+            <form>
+              <div class="text-dark">
+                <div class="form-floating border-0 mb-2">
+                  <input
+                    type="name"
+                    class="form-control border-0 border-bottom border-2"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Name</label>
+                </div>
+                <div class="form-floating border-0 my-2">
+                  <input
+                    type="email"
+                    class="form-control border-0 border-bottom border-2"
+                    id="floatingEmail"
+                    placeholder="Email"
+                  />
+                  <label for="floatingPassword">Email Address</label>
+                </div>
+                <div class="form-floating border-0 mb-2">
+                  <input
+                    type="text"
+                    class="form-control border-0 border-bottom border-2"
+                    id="floatingPhoneNumber"
+                    placeholder="PhoneNumber@example.com"
+                  />
+                  <label for="floatingInput">Phone Number</label>
+                </div>
+                <div class="form-floating border-0 my-2">
+                  <textarea
+                    class="form-control border-0 border-bottom border-2"
+                    placeholder="Leave a message here"
+                    id="floatingTextarea"
+                    style="height: 200px"
+                  ></textarea>
+                  <label for="floatingTextarea">Message</label>
+                </div>
+              </div>
+              <div class="">
+                <button type="submit" class="btn _btn_submit fs-5 my-2">
+                  Send
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </section>

@@ -60,6 +60,13 @@ main section:nth-of-type(2n + 1) {
   height: 5px;
 }
 
+/* |Section Contact Me| */
+
+#contact_me ._btn_submit {
+  color: white;
+  background-color: #1abc9c;
+}
+
 /* *Footer */
 /* |Footer Top| */
 #footer_top {
