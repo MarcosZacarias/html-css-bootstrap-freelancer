@@ -46,6 +46,14 @@ main section:nth-of-type(2n + 1) {
 
 /* |Section Avatar */
 
+._avatar_image {
+  width: 240px;
+}
+
+#avatar ._line_stars {
+  height: 5px;
+}
+
 /* *Footer */
 /* |Footer Top| */
 #footer_top {
