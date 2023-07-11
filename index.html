@@ -237,37 +237,50 @@
             </div>
 
             <!-- Form Contact-Me -->
-            <form>
+            <form
+              action="http://learning.tizianonicolai.com/request-catcher/"
+              method="POST"
+            >
               <div class="text-dark">
                 <div class="form-floating border-0 mb-2">
                   <input
-                    type="name"
+                    type="text"
+                    name="name"
+                    value="floatingInput"
                     class="form-control border-0 border-bottom border-2"
                     id="floatingInput"
                     placeholder="name@example.com"
+                    required
                   />
                   <label for="floatingInput">Name</label>
                 </div>
                 <div class="form-floating border-0 my-2">
                   <input
                     type="email"
+                    name="email"
+                    value="floatingEmail"
                     class="form-control border-0 border-bottom border-2"
                     id="floatingEmail"
                     placeholder="Email"
+                    required
                   />
                   <label for="floatingPassword">Email Address</label>
                 </div>
                 <div class="form-floating border-0 mb-2">
                   <input
                     type="text"
+                    name="PhoneNumber"
                     class="form-control border-0 border-bottom border-2"
                     id="floatingPhoneNumber"
                     placeholder="PhoneNumber@example.com"
+                    required
                   />
                   <label for="floatingInput">Phone Number</label>
                 </div>
                 <div class="form-floating border-0 my-2">
                   <textarea
+                    type="text"
+                    name="message"
                     class="form-control border-0 border-bottom border-2"
                     placeholder="Leave a message here"
                     id="floatingTextarea"
